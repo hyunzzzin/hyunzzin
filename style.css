@@ -12,7 +12,7 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #263343;
-  padding: 8px 12px;
+  padding: 10px 12px;
 }
 
 .navbar__logo {
@@ -31,7 +31,7 @@ a {
 }
 
 .navbar__menu li {
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .navbar__menu li:hover {
