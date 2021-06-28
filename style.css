@@ -1,6 +1,11 @@
 body {
   margin: 0;
   font-family: "Source Sans Pro";
+  background-image: url("https://pixabay.com/get/g65860fe60cb0fbdba516894ffacc21d54821214235b49adc311110041cce8316dc99ccb735e1f5182bc2f34d9de9381c_1920.jpg");
+  background-position: cover;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 a {
@@ -11,7 +16,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #263343;
+  background-color: #a12bd8;
   padding: 10px 12px;
 }
 
@@ -44,10 +49,15 @@ a {
   list-style: none;
   color: white;
   display: flex;
-  padding-left: 0;
+
   font-size: 20px;
 }
-
+.navbar__icons li:hover {
+  border-radius: 4px;
+  padding: 7px 0px;
+  background-color: #d49466;
+  background-position: center;
+}
 .navbar__icons li {
   padding: 8px 12px;
 }
@@ -89,6 +99,7 @@ a {
   }
   .header {
     font-size: 15px;
+    font-family: "Jomhuria", cursive;
   }
   .member {
     font-size: 10px;
@@ -112,16 +123,17 @@ a {
 }
 
 .header {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 900;
   padding: 10px 15px;
   color: #000000;
   text-align: center;
+  font-family: "Jomhuria", cursive;
 }
 .introduce {
-  font-size: 20px;
+  font-size: 50px;
   color: #0000ff;
-  text-align: center;
+  text-align: start center;
 }
 .member__head {
   font-size: 25px;
@@ -166,7 +178,13 @@ a {
 }
 .professor__image {
   float: left;
+  margin-right: 10px;
 }
 .professor__intro {
-  float: left;
+  margin-left: 40px;
+
+  font-size: 30px;
+}
+.intro1 {
+  font-size: 30px;
 }
