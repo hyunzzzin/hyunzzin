@@ -35,14 +35,17 @@ a {
 }
 
 .navbar__menu li:hover {
-  background-color: #d49466;
   border-radius: 4px;
+  padding: 7px 0px;
+  background-color: #d49466;
+  background-position: center;
 }
 .navbar__icons {
   list-style: none;
   color: white;
   display: flex;
   padding-left: 0;
+  font-size: 20px;
 }
 
 .navbar__icons li {
@@ -59,17 +62,17 @@ a {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 24px;
   }
   .navbar__menu {
     display: none;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .navbar__menu li {
     width: 100%;
-    text-align: center;
+    padding-left: 330px;
   }
   .navbar__icons {
     display: none;
@@ -83,6 +86,28 @@ a {
   .navbar__menu.active,
   .navbar__icons.active {
     display: flex;
+  }
+  .header {
+    font-size: 15px;
+  }
+  .member {
+    font-size: 10px;
+    width: 80%;
+  }
+  .member__head {
+    text-align: center;
+  }
+  .introduce {
+    text-align: center;
+    text-shadow: #263343;
+  }
+  .homeimage {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 100px;
   }
 }
 
@@ -107,8 +132,8 @@ a {
 }
 .homeimage {
   display: block;
-  width: 80%;
-  height: 700px;
+  width: 40%;
+  height: auto;
   object-fit: cover;
   overflow: hidden;
   margin: 0 auto;
@@ -125,4 +150,23 @@ a {
 }
 .list {
   text-align: center;
+}
+.professor {
+  margin: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.professor__image {
+  display: block;
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+.professor__image {
+  float: left;
+}
+.professor__intro {
+  float: left;
 }
