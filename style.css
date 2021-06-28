@@ -188,3 +188,56 @@ a {
 .intro1 {
   font-size: 30px;
 }
+@media screen and (max-device-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar__menu li {
+    width: 100%;
+    padding-left: 150px;
+  }
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar__togglebtn {
+    display: block;
+  }
+
+  .navbar__menu.active,
+  .navbar__icons.active {
+    display: flex;
+  }
+  .header {
+    font-size: 7px;
+    font-family: "Jomhuria", cursive;
+  }
+  .member {
+    font-size: 5px;
+    width: 80%;
+  }
+  .member__head {
+    text-align: center;
+  }
+  .introduce {
+    text-align: center;
+    text-shadow: #263343;
+  }
+  .homeimage {
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+}
