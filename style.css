@@ -218,7 +218,7 @@ a {
     display: flex;
   }
   .header {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Jomhuria", cursive;
   }
   .member {
@@ -231,6 +231,7 @@ a {
   .introduce {
     text-align: center;
     text-shadow: #263343;
+    font-size: 20px;
   }
   .homeimage {
     width: 60%;
