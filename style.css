@@ -218,11 +218,11 @@ a {
     display: flex;
   }
   .header {
-    font-size: 7px;
+    font-size: 20px;
     font-family: "Jomhuria", cursive;
   }
   .member {
-    font-size: 5px;
+    font-size: 10px;
     width: 80%;
   }
   .member__head {
@@ -240,4 +240,23 @@ a {
     margin: 0 auto;
     border-radius: 50px;
   }
+  .professor__image {
+    display: block;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 40px;
+  }
+  .professor__image {
+    float: left;
+    margin-right: 10px;
+  }
+  .professor__intro {
+    margin-left: 20px;
+  
+    font-size: 20px;
+  }
+  .intro1 {
+    font-size: 20px;
 }
