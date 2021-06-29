@@ -1,4 +1,4 @@
-<h1>ECES HOMEPAGE</h1>
+ECES HOMEPAGE
 
 
 
