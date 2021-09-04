@@ -32,3 +32,6 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+		
+<li> [nav >ul > li ]mouse hover css error !
