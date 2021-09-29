@@ -1662,7 +1662,7 @@ input, select, textarea {
 		}
 
 
-#main .intro .introduce img{
-	width: 150px;
-	height: 200px;
+.about .major .image main > img {
+	width: 500px;
+	height: 500px;
 }
