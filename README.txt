@@ -35,3 +35,5 @@ Credits:
 		
 		
 <li> [nav >ul > li ]mouse hover css error !
+
+<li> nav bar mouse hover width size error !
