@@ -18,7 +18,7 @@ you can use for pretty much whatever.
 
 
 AJ
-aj@lkn.io | @ajlkn
+zin-@kakao.com
 
 
 Credits:
@@ -30,6 +30,7 @@ Credits:
 		Font Awesome (fontawesome.io)
 
 	Other:
+		React Component
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 		
